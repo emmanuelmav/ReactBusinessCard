@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  width: 100%;
+  background-color: #23252C;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.app {
+  background-color: #1A1B21;
+  width: 317px;
+  margin: 44px auto;
+  color: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.info {
+  text-align: center;
+}
+
+.info--profile {
+  width: 317px;
+  height: 317px;
+  margin-bottom: 21px;
+}
+
+.info--job {
+  font-size: 13px;
+  color: #F3BF99;
+  margin-top: 6px;
+  margin-bottom: 9px;
+}
+
+.info--website {
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+.info-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btns {
+  text-align: center;
+  width: 115px;
+  height: 34px;
+  /* padding: 9px 13px 9px 11px; */
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  margin-bottom: 33px;
+  font-family: 'Inter', sans-serif;
+}
+
+.email--btn {
+  border: 1px solid #D1D5DB;
+  margin-right: 17px;
+}
+
+.linkedin--btn {
+  border: 1px solid #5093E2;
+  background-color: #5093E2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+.info--icon {
+  margin-right: 9px;
+}
+
+.about {
+  padding-right: 34px;
+  padding-left: 36px;
+  margin-bottom: 27px;
+}
+
+.about--title {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #F5F5F5;
+}
+
+.about--text {
+  font-size: 10px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.interests {
+  padding-right: 34px;
+  padding-left: 36px;
+  margin-bottom: 27px;
+}
+
+.interests--title {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #F5F5F5;
+}
+
+.interests--text {
+  font-size: 10px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+
+.footer {
+  height: 64px;
+  background: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
